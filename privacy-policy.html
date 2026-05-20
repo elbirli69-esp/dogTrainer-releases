@@ -3,312 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dogly — Privacy Policy</title>
+    <title>Dogaze - Privacy Policy</title>
     <style>
-        :root {
-            --primary: #FF6D00;
-            --bg: #FFFDF9;
-            --text: #1A1A1A;
-            --muted: #666;
-            --border: #E8E0D8;
-        }
-        * { box-sizing: border-box; margin: 0; padding: 0; }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.7;
-            padding: 2rem 1rem;
-        }
-        .container { max-width: 720px; margin: 0 auto; }
-        header { text-align: center; margin-bottom: 2.5rem; }
-        header h1 { font-size: 2rem; color: var(--primary); margin-bottom: 0.25rem; }
-        header p.subtitle { color: var(--muted); font-size: 0.95rem; }
-        h2 {
-            font-size: 1.25rem;
-            color: var(--primary);
-            margin: 2rem 0 0.75rem;
-            padding-bottom: 0.35rem;
-            border-bottom: 2px solid var(--border);
-        }
-        h3 { font-size: 1.05rem; margin: 1.25rem 0 0.5rem; }
-        p, li { margin-bottom: 0.5rem; }
-        ul { padding-left: 1.5rem; }
-        table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.92rem; }
-        th, td { text-align: left; padding: 0.6rem 0.75rem; border: 1px solid var(--border); }
-        th { background: #FFF3E0; color: var(--primary); font-weight: 600; }
-        .badge {
-            display: inline-block; font-size: 0.75rem; padding: 0.15rem 0.5rem;
-            border-radius: 0.75rem; font-weight: 600;
-        }
-        .on-device { background: #E8F5E9; color: #2E7D32; }
-        .cloud { background: #FFF3E0; color: #E65100; }
-        .optional { background: #E3F2FD; color: #1565C0; }
-        footer { margin-top: 3rem; text-align: center; color: var(--muted); font-size: 0.85rem; }
-        a { color: var(--primary); }
-        .lang-switch { text-align: center; margin-bottom: 1.5rem; }
-        .lang-switch button {
-            background: none; border: 2px solid var(--primary); color: var(--primary);
-            padding: 0.35rem 1rem; border-radius: 1rem; cursor: pointer; margin: 0 0.25rem;
-            font-weight: 600; font-size: 0.9rem;
-        }
-        .lang-switch button.active { background: var(--primary); color: #fff; }
-        .lang { display: none; }
-        .lang.active { display: block; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; color: #333; line-height: 1.6; }
+        h1 { color: #F59E0B; }
+        h2 { color: #78350F; margin-top: 24px; }
+        p { margin: 8px 0; }
+        .date { color: #666; font-style: italic; }
     </style>
 </head>
 <body>
-<div class="container">
-
-<header>
-    <h1>🐾 Dogly</h1>
-    <p class="subtitle">Privacy Policy</p>
-</header>
-
-<div class="lang-switch">
-    <button class="active" onclick="switchLang('en')">English</button>
-    <button onclick="switchLang('es')">Español</button>
-</div>
-
-<!-- ==================== ENGLISH ==================== -->
-<div id="lang-en" class="lang active">
-
-<p><strong>Effective date:</strong> May 17, 2026<br>
-<strong>Last updated:</strong> May 17, 2026<br>
-<strong>App version:</strong> 3.0.0</p>
-
-<p>Dogly ("we", "our", "the app") is a canine coaching and social networking app that helps dog owners train their dogs, track walks, and connect with other dog owners. Your privacy is important to us. This policy explains what data we collect, why, and how we protect it.</p>
-
-<h2>1. Data We Collect</h2>
-
-<table>
-<tr><th>Data</th><th>Purpose</th><th>Processing</th></tr>
-<tr><td>Accelerometer &amp; Gyroscope</td><td>Detect pulling behavior during walks</td><td><span class="badge on-device">On-device only</span></td></tr>
-<tr><td>Microphone audio</td><td>Detect barking and dog vocalizations</td><td><span class="badge on-device">On-device only</span></td></tr>
-<tr><td>GPS location</td><td>Track walk routes, DogRadar, nearby places</td><td><span class="badge cloud">Stored in cloud</span></td></tr>
-<tr><td>Email &amp; display name</td><td>Account creation and social features</td><td><span class="badge cloud">Stored in cloud</span></td></tr>
-<tr><td>Profile &amp; dog photos</td><td>User profile and social feed</td><td><span class="badge cloud">Stored in cloud</span></td></tr>
-<tr><td>Dog information</td><td>Breed, age, weight — personalize training</td><td><span class="badge cloud">Stored in cloud</span></td></tr>
-<tr><td>Walk statistics</td><td>Duration, distance, pulls, audio events</td><td><span class="badge cloud">Stored in cloud</span></td></tr>
-<tr><td>Social interactions</td><td>Posts, likes, follows, comments</td><td><span class="badge cloud">Stored in cloud</span></td></tr>
-<tr><td>Health Connect data</td><td>Heart rate, steps from wearables</td><td><span class="badge optional">Optional, on-device</span></td></tr>
-<tr><td>Bluetooth sensors</td><td>External heart rate monitors</td><td><span class="badge optional">Optional, on-device</span></td></tr>
-<tr><td>Crash logs &amp; diagnostics</td><td>App stability and bug fixing</td><td><span class="badge cloud">Firebase Crashlytics</span></td></tr>
-<tr><td>Usage analytics</td><td>Understand feature usage patterns</td><td><span class="badge cloud">Firebase Analytics</span></td></tr>
-</table>
-
-<h2>2. How We Use Your Data</h2>
-<ul>
-    <li><strong>Walk coaching:</strong> Sensor data (accelerometer, gyroscope, microphone) is processed <strong>entirely on your device</strong> using an on-device machine learning model (ONNX Runtime). No audio is recorded, stored, or transmitted.</li>
-    <li><strong>Walk tracking:</strong> GPS coordinates are used to display your walk route and calculate statistics. Routes are stored in your account.</li>
-    <li><strong>DogRadar:</strong> Your approximate location may be shared with nearby users during active walks, if you enable this feature.</li>
-    <li><strong>Social features:</strong> Posts, photos, and profile data you share are visible to other users according to your privacy settings.</li>
-    <li><strong>Personalization:</strong> Dog breed, age, and weight are used to customize training thresholds and coaching advice.</li>
-    <li><strong>Stability:</strong> Crash reports and anonymized usage data help us improve the app.</li>
-</ul>
-
-<h2>3. Machine Learning &amp; Audio Processing</h2>
-<p>Dogly uses an <strong>on-device ML model</strong> to classify dog sounds (barking). Key privacy facts:</p>
-<ul>
-    <li>Audio is processed in real-time and <strong>never recorded or saved</strong></li>
-    <li>The ML model runs locally on your phone — <strong>no audio is sent to any server</strong></li>
-    <li>Only classification results (e.g., "bark detected at 14:03") are stored</li>
-    <li>Spectral subtraction removes background noise on-device before classification</li>
-</ul>
-
-<h2>4. Data Storage &amp; Security</h2>
-<ul>
-    <li><strong>Local storage:</strong> Walk history, dog profiles, and settings are stored in an encrypted local database (Room/SQLite) on your device</li>
-    <li><strong>Cloud storage:</strong> Account data, walks, and social content are stored in <strong>Google Firebase</strong> (Firestore) with encryption at rest and in transit</li>
-    <li><strong>Authentication:</strong> Handled by Firebase Authentication (email/password or Google Sign-In) — we never store your password directly</li>
-    <li><strong>Photos:</strong> Uploaded to Firebase Storage with access controls</li>
-</ul>
-
-<h2>5. Third-Party Services</h2>
-<table>
-<tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Privacy Policy</th></tr>
-<tr><td>Firebase Auth</td><td>Google</td><td>Authentication</td><td><a href="https://firebase.google.com/support/privacy">Link</a></td></tr>
-<tr><td>Cloud Firestore</td><td>Google</td><td>Cloud database</td><td><a href="https://firebase.google.com/support/privacy">Link</a></td></tr>
-<tr><td>Firebase Crashlytics</td><td>Google</td><td>Crash reporting</td><td><a href="https://firebase.google.com/support/privacy">Link</a></td></tr>
-<tr><td>Firebase Analytics</td><td>Google</td><td>Usage analytics</td><td><a href="https://firebase.google.com/support/privacy">Link</a></td></tr>
-<tr><td>Firebase Cloud Messaging</td><td>Google</td><td>Push notifications</td><td><a href="https://firebase.google.com/support/privacy">Link</a></td></tr>
-<tr><td>Google Sign-In</td><td>Google</td><td>OAuth authentication</td><td><a href="https://policies.google.com/privacy">Link</a></td></tr>
-<tr><td>OpenStreetMap</td><td>OSM Foundation</td><td>Map tiles</td><td><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">Link</a></td></tr>
-<tr><td>ONNX Runtime</td><td>Microsoft</td><td>On-device ML inference</td><td>Runs locally, no data sent</td></tr>
-</table>
-
-<h2>6. Permissions</h2>
-<table>
-<tr><th>Permission</th><th>Why</th><th>Required?</th></tr>
-<tr><td>Location (Fine &amp; Coarse)</td><td>Walk route tracking and DogRadar</td><td>Yes, for walks</td></tr>
-<tr><td>Microphone</td><td>Real-time bark detection during walks</td><td>Optional</td></tr>
-<tr><td>Activity Recognition</td><td>Motion detection for pull analysis</td><td>Yes, for walks</td></tr>
-<tr><td>Camera</td><td>Profile and dog photos</td><td>Optional</td></tr>
-<tr><td>Bluetooth</td><td>External heart rate sensors</td><td>Optional</td></tr>
-<tr><td>Internet</td><td>Cloud sync, map tiles, social features</td><td>Yes</td></tr>
-<tr><td>Notifications</td><td>Walk reminders and social alerts</td><td>Optional</td></tr>
-<tr><td>Vibrate</td><td>Haptic feedback during walks</td><td>Yes</td></tr>
-</table>
-
-<h2>7. Data Retention &amp; Deletion</h2>
-<ul>
-    <li>You can delete your account and all associated data at any time from <strong>Settings → Account → Delete Account</strong></li>
-    <li>Upon account deletion, all cloud data (walks, posts, photos, profile) is permanently removed within 30 days</li>
-    <li>Local data is deleted immediately when you uninstall the app or clear app data</li>
-    <li>Anonymized crash reports and analytics may be retained for up to 90 days for stability analysis</li>
-</ul>
-
-<h2>8. Children's Privacy</h2>
-<p>Dogly is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal data, please contact us and we will delete it promptly.</p>
-
-<h2>9. Your Rights</h2>
-<p>Depending on your jurisdiction (GDPR, CCPA, etc.), you may have the right to:</p>
-<ul>
-    <li>Access your personal data</li>
-    <li>Correct inaccurate data</li>
-    <li>Request deletion of your data</li>
-    <li>Export your data (walk history, dog profiles)</li>
-    <li>Withdraw consent for optional data processing</li>
-    <li>Object to analytics data collection</li>
-</ul>
-
-<h2>10. Changes to This Policy</h2>
-<p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated "Last updated" date. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
-
-<h2>11. Contact</h2>
-<p>If you have questions about this privacy policy or your data, contact us at:<br>
-📧 <a href="mailto:dogly.app.contact@gmail.com">dogly.app.contact@gmail.com</a><br>
-🐙 <a href="https://github.com/elbirli69-esp/dogTrainer-releases/issues">GitHub Issues</a></p>
-
-</div>
-
-<!-- ==================== ESPAÑOL ==================== -->
-<div id="lang-es" class="lang">
-
-<p><strong>Fecha de vigencia:</strong> 17 de mayo de 2026<br>
-<strong>Última actualización:</strong> 17 de mayo de 2026<br>
-<strong>Versión de la app:</strong> 3.0.0</p>
-
-<p>Dogly ("nosotros", "nuestra", "la app") es una aplicación de coaching canino y red social que ayuda a los propietarios de perros a entrenar a sus mascotas, rastrear paseos y conectar con otros dueños. Tu privacidad es importante para nosotros. Esta política explica qué datos recopilamos, por qué y cómo los protegemos.</p>
-
-<h2>1. Datos que Recopilamos</h2>
-
-<table>
-<tr><th>Dato</th><th>Finalidad</th><th>Procesamiento</th></tr>
-<tr><td>Acelerómetro y Giroscopio</td><td>Detectar tirones durante los paseos</td><td><span class="badge on-device">Solo en el dispositivo</span></td></tr>
-<tr><td>Audio del micrófono</td><td>Detectar ladridos y vocalizaciones</td><td><span class="badge on-device">Solo en el dispositivo</span></td></tr>
-<tr><td>Ubicación GPS</td><td>Rastrear rutas, DogRadar, lugares cercanos</td><td><span class="badge cloud">Almacenado en la nube</span></td></tr>
-<tr><td>Email y nombre</td><td>Creación de cuenta y funciones sociales</td><td><span class="badge cloud">Almacenado en la nube</span></td></tr>
-<tr><td>Fotos de perfil y perro</td><td>Perfil de usuario y feed social</td><td><span class="badge cloud">Almacenado en la nube</span></td></tr>
-<tr><td>Información del perro</td><td>Raza, edad, peso — personalizar entrenamiento</td><td><span class="badge cloud">Almacenado en la nube</span></td></tr>
-<tr><td>Estadísticas de paseo</td><td>Duración, distancia, tirones, eventos de audio</td><td><span class="badge cloud">Almacenado en la nube</span></td></tr>
-<tr><td>Interacciones sociales</td><td>Publicaciones, likes, seguidos, comentarios</td><td><span class="badge cloud">Almacenado en la nube</span></td></tr>
-<tr><td>Health Connect</td><td>Frecuencia cardíaca, pasos de wearables</td><td><span class="badge optional">Opcional, en dispositivo</span></td></tr>
-<tr><td>Sensores Bluetooth</td><td>Monitores de frecuencia cardíaca externos</td><td><span class="badge optional">Opcional, en dispositivo</span></td></tr>
-<tr><td>Logs de errores</td><td>Estabilidad de la app y corrección de bugs</td><td><span class="badge cloud">Firebase Crashlytics</span></td></tr>
-<tr><td>Analítica de uso</td><td>Comprender patrones de uso</td><td><span class="badge cloud">Firebase Analytics</span></td></tr>
-</table>
-
-<h2>2. Cómo Usamos tus Datos</h2>
-<ul>
-    <li><strong>Coaching en paseos:</strong> Los datos de sensores (acelerómetro, giroscopio, micrófono) se procesan <strong>completamente en tu dispositivo</strong> usando un modelo de aprendizaje automático local (ONNX Runtime). No se graba, almacena ni transmite audio.</li>
-    <li><strong>Seguimiento de paseos:</strong> Las coordenadas GPS se usan para mostrar tu ruta y calcular estadísticas. Las rutas se almacenan en tu cuenta.</li>
-    <li><strong>DogRadar:</strong> Tu ubicación aproximada puede compartirse con usuarios cercanos durante paseos activos, si activas esta función.</li>
-    <li><strong>Funciones sociales:</strong> Las publicaciones, fotos y datos de perfil que compartes son visibles para otros usuarios según tu configuración de privacidad.</li>
-    <li><strong>Personalización:</strong> La raza, edad y peso del perro se usan para personalizar umbrales de entrenamiento y consejos.</li>
-    <li><strong>Estabilidad:</strong> Los informes de errores y datos de uso anónimos nos ayudan a mejorar la app.</li>
-</ul>
-
-<h2>3. Aprendizaje Automático y Procesamiento de Audio</h2>
-<p>Dogly usa un <strong>modelo de ML en el dispositivo</strong> para clasificar sonidos de perros (ladridos). Datos clave de privacidad:</p>
-<ul>
-    <li>El audio se procesa en tiempo real y <strong>nunca se graba ni se guarda</strong></li>
-    <li>El modelo de ML se ejecuta localmente — <strong>no se envía audio a ningún servidor</strong></li>
-    <li>Solo se almacenan los resultados de clasificación (ej: "ladrido detectado a las 14:03")</li>
-    <li>La sustracción espectral elimina el ruido de fondo en el dispositivo antes de la clasificación</li>
-</ul>
-
-<h2>4. Almacenamiento y Seguridad</h2>
-<ul>
-    <li><strong>Almacenamiento local:</strong> El historial de paseos, perfiles de perros y configuración se almacenan en una base de datos local encriptada (Room/SQLite)</li>
-    <li><strong>Almacenamiento en la nube:</strong> Los datos de cuenta, paseos y contenido social se almacenan en <strong>Google Firebase</strong> (Firestore) con cifrado en reposo y en tránsito</li>
-    <li><strong>Autenticación:</strong> Gestionada por Firebase Authentication — nunca almacenamos tu contraseña directamente</li>
-    <li><strong>Fotos:</strong> Subidas a Firebase Storage con controles de acceso</li>
-</ul>
-
-<h2>5. Servicios de Terceros</h2>
-<table>
-<tr><th>Servicio</th><th>Proveedor</th><th>Finalidad</th><th>Política de Privacidad</th></tr>
-<tr><td>Firebase Auth</td><td>Google</td><td>Autenticación</td><td><a href="https://firebase.google.com/support/privacy">Enlace</a></td></tr>
-<tr><td>Cloud Firestore</td><td>Google</td><td>Base de datos en la nube</td><td><a href="https://firebase.google.com/support/privacy">Enlace</a></td></tr>
-<tr><td>Firebase Crashlytics</td><td>Google</td><td>Informes de errores</td><td><a href="https://firebase.google.com/support/privacy">Enlace</a></td></tr>
-<tr><td>Firebase Analytics</td><td>Google</td><td>Analítica de uso</td><td><a href="https://firebase.google.com/support/privacy">Enlace</a></td></tr>
-<tr><td>Firebase Cloud Messaging</td><td>Google</td><td>Notificaciones push</td><td><a href="https://firebase.google.com/support/privacy">Enlace</a></td></tr>
-<tr><td>Google Sign-In</td><td>Google</td><td>Autenticación OAuth</td><td><a href="https://policies.google.com/privacy">Enlace</a></td></tr>
-<tr><td>OpenStreetMap</td><td>OSM Foundation</td><td>Mosaicos del mapa</td><td><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">Enlace</a></td></tr>
-<tr><td>ONNX Runtime</td><td>Microsoft</td><td>Inferencia ML en dispositivo</td><td>Se ejecuta localmente</td></tr>
-</table>
-
-<h2>6. Permisos</h2>
-<table>
-<tr><th>Permiso</th><th>Motivo</th><th>¿Obligatorio?</th></tr>
-<tr><td>Ubicación (Precisa y Aproximada)</td><td>Seguimiento de ruta y DogRadar</td><td>Sí, para paseos</td></tr>
-<tr><td>Micrófono</td><td>Detección de ladridos en tiempo real</td><td>Opcional</td></tr>
-<tr><td>Reconocimiento de actividad</td><td>Detección de movimiento para tirones</td><td>Sí, para paseos</td></tr>
-<tr><td>Cámara</td><td>Fotos de perfil y perro</td><td>Opcional</td></tr>
-<tr><td>Bluetooth</td><td>Sensores de frecuencia cardíaca</td><td>Opcional</td></tr>
-<tr><td>Internet</td><td>Sincronización, mapas, funciones sociales</td><td>Sí</td></tr>
-<tr><td>Notificaciones</td><td>Recordatorios de paseo y alertas sociales</td><td>Opcional</td></tr>
-<tr><td>Vibración</td><td>Feedback háptico durante paseos</td><td>Sí</td></tr>
-</table>
-
-<h2>7. Retención y Eliminación de Datos</h2>
-<ul>
-    <li>Puedes eliminar tu cuenta y todos los datos asociados en cualquier momento desde <strong>Ajustes → Cuenta → Eliminar Cuenta</strong></li>
-    <li>Al eliminar la cuenta, todos los datos en la nube se borran permanentemente en un máximo de 30 días</li>
-    <li>Los datos locales se eliminan al desinstalar la app o borrar los datos de la aplicación</li>
-    <li>Los informes de errores anónimos pueden conservarse hasta 90 días para análisis de estabilidad</li>
-</ul>
-
-<h2>8. Privacidad de Menores</h2>
-<p>Dogly no está dirigida a menores de 13 años (o 16 en la UE bajo GDPR). No recopilamos intencionadamente información personal de menores. Si crees que un menor nos ha proporcionado datos personales, contáctanos y los eliminaremos de inmediato.</p>
-
-<h2>9. Tus Derechos</h2>
-<p>Según tu jurisdicción (RGPD, CCPA, etc.), puedes tener derecho a:</p>
-<ul>
-    <li>Acceder a tus datos personales</li>
-    <li>Corregir datos inexactos</li>
-    <li>Solicitar la eliminación de tus datos</li>
-    <li>Exportar tus datos (historial de paseos, perfiles de perros)</li>
-    <li>Retirar el consentimiento para el procesamiento opcional de datos</li>
-    <li>Oponerte a la recopilación de datos analíticos</li>
-</ul>
-
-<h2>10. Cambios en esta Política</h2>
-<p>Podemos actualizar esta política de privacidad periódicamente. Los cambios se publicarán en esta página con una fecha de "Última actualización" revisada. El uso continuado de la app tras los cambios constituye la aceptación de la política actualizada.</p>
-
-<h2>11. Contacto</h2>
-<p>Si tienes preguntas sobre esta política o tus datos, contáctanos en:<br>
-📧 <a href="mailto:dogly.app.contact@gmail.com">dogly.app.contact@gmail.com</a><br>
-🐙 <a href="https://github.com/elbirli69-esp/dogTrainer-releases/issues">GitHub Issues</a></p>
-
-</div>
-
-<footer>
-    <p>© 2026 Dogly. All rights reserved. | Todos los derechos reservados.</p>
-    <p>🐾 Made with love for dogs and their humans.</p>
-</footer>
-
-</div>
-
-<script>
-function switchLang(lang) {
-    document.querySelectorAll('.lang').forEach(el => el.classList.remove('active'));
-    document.getElementById('lang-' + lang).classList.add('active');
-    document.querySelectorAll('.lang-switch button').forEach(btn => btn.classList.remove('active'));
-    event.target.classList.add('active');
-}
-</script>
-
+    <h1>🐕 Dogaze — Privacy Policy</h1>
+    <p class="date">Last updated: May 2026</p>
+    
+    <h2>1. Information We Collect</h2>
+    <p>Dogaze collects the following information to provide our dog walking and social networking services:</p>
+    <ul>
+        <li><strong>Account information:</strong> Email address, display name, and profile photo when you sign in with Google or create an account.</li>
+        <li><strong>Dog profiles:</strong> Dog name, breed, weight, age, and photos you choose to share.</li>
+        <li><strong>Walk data:</strong> GPS location during walks (routes, distance, duration), accelerometer data for pull detection, and microphone data for bark/sound classification.</li>
+        <li><strong>Social data:</strong> Posts, likes, comments, follows, and event participation.</li>
+        <li><strong>Device data:</strong> Device model, OS version, and app version for crash reporting and analytics.</li>
+    </ul>
+    
+    <h2>2. How We Use Your Information</h2>
+    <ul>
+        <li>Provide real-time coaching during dog walks</li>
+        <li>Track walking history and progress over time</li>
+        <li>Enable social features (sharing walks, following users, community feed)</li>
+        <li>Report and display safety incidents on the community map</li>
+        <li>Improve the app through anonymized analytics</li>
+        <li>Send notifications about social activity and community events</li>
+    </ul>
+    
+    <h2>3. Data Storage & Security</h2>
+    <p>Walk data is stored locally on your device using an encrypted database. Social data is stored on Google Firebase (Firestore) with industry-standard security. We do not sell your personal data to third parties.</p>
+    
+    <h2>4. Location Data</h2>
+    <p>GPS location is collected only during active walks and is used to map your route, detect nearby safety incidents, and match you with nearby dog walkers. You can choose whether to share walk routes publicly.</p>
+    
+    <h2>5. Microphone & Sensors</h2>
+    <p>The microphone is used only during walks for on-device sound classification (barking, whining). Audio is processed locally using machine learning and is never recorded, stored, or transmitted. Accelerometer data is used for pull/tension detection during walks.</p>
+    
+    <h2>6. Your Rights</h2>
+    <ul>
+        <li>You can delete your account and all associated data at any time from Settings</li>
+        <li>You can toggle profile and walk visibility (public/private)</li>
+        <li>You can use the app in offline mode without creating an account</li>
+        <li>You can export your walk history data</li>
+    </ul>
+    
+    <h2>7. Third-Party Services</h2>
+    <p>We use the following third-party services:</p>
+    <ul>
+        <li>Google Firebase (authentication, database, analytics, crash reporting)</li>
+        <li>OpenStreetMap (map tiles, no user data shared)</li>
+        <li>ONNX Runtime (on-device ML inference, no data leaves your device)</li>
+    </ul>
+    
+    <h2>8. Children's Privacy</h2>
+    <p>Dogaze is not directed at children under 13. We do not knowingly collect personal information from children.</p>
+    
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. We will notify you of material changes through the app.</p>
+    
+    <h2>10. Contact</h2>
+    <p>For questions about this privacy policy, contact us at: <strong>Dogaze.app@gmail.com</strong></p>
 </body>
 </html>
